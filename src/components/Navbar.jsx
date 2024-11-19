@@ -15,7 +15,7 @@ const Navbar = ({ toggleTheme }) => {
   };
 
   return (
-    <nav className="p-4  sticky top-0 z-50 transition-colors duration-300">
+    <nav className="p-4 dark:bg-gray-900 bg-gray-100 sticky top-0 z-50 transition-colors duration-300">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo Section */}
         <Link to="/" className="md:hidden text-3xl font-bold text-gray-900 dark:text-gray-100 transition-colors duration-300">
@@ -24,7 +24,7 @@ const Navbar = ({ toggleTheme }) => {
 
         {/* Desktop Menu */}
         <ul
-          className="hidden md:flex space-x-8 items-center mx-auto bg-white dark:bg-black  p-2 rounded-lg 
+          className="hidden md:flex space-x-8 items-center mx-auto bg-gray-100 dark:bg-gray-900  p-2 rounded-lg 
               shadow-md dark:shadow-white dark:border dark:border-white transition-colors duration-300"
         >
           <li>
@@ -67,7 +67,7 @@ const Navbar = ({ toggleTheme }) => {
             toggleTheme();
             darkMode();
           }}
-          className="hidden md:block text-gray-700 dark:text-gray-300 focus:outline-none ml-4 bg-white dark:bg-black dark:shadow-white dark:border dark:border-white  p-2 rounded-full shadow-md transition-colors duration-300"
+          className="hidden md:block text-gray-700 dark:text-gray-300 focus:outline-none ml-4 bg-gray-100 dark:bg-gray-900  dark:shadow-white dark:border dark:border-white  p-2 rounded-full shadow-md transition-colors duration-300"
         >
           {isDarkMode ? <FiSun size={20} /> : <FiMoon size={20} />}
         </button>
