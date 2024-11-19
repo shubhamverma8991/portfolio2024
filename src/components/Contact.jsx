@@ -44,6 +44,7 @@ const Contact = () => {
               height="350"
               loading="lazy"
               className="rounded-lg shadow-md"
+              title="map"
             ></iframe>
           </figure>
         </section>
