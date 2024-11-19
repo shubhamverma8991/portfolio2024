@@ -19,7 +19,7 @@ const Navbar = ({ toggleTheme }) => {
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo Section */}
         <Link to="/" className="md:hidden text-3xl font-bold text-gray-900 dark:text-gray-100 transition-colors duration-300">
-          Shubham
+          I'm Shubham
         </Link>
 
         {/* Desktop Menu */}
