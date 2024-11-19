@@ -29,7 +29,7 @@ const Hero = () => {
 
   return (
     <section className="flex flex-col items-center justify-center h-screen bg-white dark:bg-black text-black dark:text-white">
-      <h1 className="text-5xl font-bold">
+      <h1 className="text-5xl font-bold text-center">
         Hello, This is <span className="text-blue-600">Shubham Verma</span>
       </h1>
       <p className="mt-4 text-2xl">
