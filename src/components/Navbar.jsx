@@ -15,7 +15,7 @@ const Navbar = ({ toggleTheme }) => {
   };
 
   return (
-    <nav className="p-4 dark:bg-gray-900 bg-gray-100 sticky top-0 z-50 transition-colors duration-300">
+    <nav className="relative p-4 dark:bg-gray-900 bg-gray-100 sticky top-0 z-50 transition-colors duration-300">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo Section */}
         <Link to="/" className="md:hidden text-3xl font-bold text-gray-900 dark:text-gray-100 transition-colors duration-300">
@@ -83,7 +83,7 @@ const Navbar = ({ toggleTheme }) => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <ul className="md:hidden bg-white dark:bg-black p-4 space-y-4 transition-colors duration-300">
+        <ul className="md:hidden absolute top-full left-0 w-full bg-gray-100 dark:bg-gray-900 border-b border-white border-dashed p-4 space-y-4 transition-colors duration-300 z-40">
           <li>
             <button
               onClick={() => {
