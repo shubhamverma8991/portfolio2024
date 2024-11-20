@@ -62,7 +62,7 @@ const Experince = () => {
     <section className="p-8 bg-gradient-to-b from-gray-100 to-gray-300 dark:from-gray-900 dark:to-gray-700 text-gray-800 dark:text-gray-200 min-h-screen">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-4xl font-bold mb-6 text-center text-black dark:text-white">Experience</h2>
-        <div className="relative border-l border-gray-300 dark:border-gray-700">
+        <div className="relative border-l border-black dark:border-white border-dashed">
           {experiences.map((exp, index) => (
             <motion.div
               key={index}
@@ -71,7 +71,7 @@ const Experince = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.2 }}
             >
-              <div className="absolute w-3 h-3 bg-white rounded-full -left-1.5 border border-white dark:border-gray-900"></div>
+              <div className="absolute w-3 h-3 bg-black dark:bg-white rounded-full -left-1.5 border border-white dark:border-gray-900"></div>
               <div className="p-4 bg-white dark:bg-gray-800 rounded-lg shadow-lg">
                 <h3 className="text-2xl font-semibold text-black dark:text-white">{exp.company}</h3>
                 <p className="text-lg text-yellow-500">{exp.title}</p>
@@ -87,7 +87,7 @@ const Experince = () => {
         </div>
 
         <h2 className="text-4xl font-bold mb-6 text-center text-black dark:text-white">Education</h2>
-        <div className="relative border-l border-gray-300 dark:border-gray-700">
+        <div className="relative border-l border-black dark:border-white border-dashed">
           {education.map((edu, index) => (
             <motion.div
               key={index}
@@ -96,7 +96,7 @@ const Experince = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.2 }}
             >
-              <div className="absolute w-3 h-3 bg-white rounded-full -left-1.5 border border-white dark:border-gray-900"></div>
+              <div className="absolute w-3 h-3  bg-black dark:bg-white rounded-full -left-1.5 border border-white dark:border-gray-900"></div>
               <div className="p-4 bg-white dark:bg-gray-800 rounded-lg shadow-lg">
                 <h3 className="text-2xl font-semibold text-black dark:text-white">{edu.institution}</h3>
                 <p className="text-lg text-yellow-500">{edu.degree}</p>
