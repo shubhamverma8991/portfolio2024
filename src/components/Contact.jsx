@@ -16,6 +16,10 @@ const Contact = () => {
     setIsButtonDisabled(!isFormValid);
   }, [formData]);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({
@@ -26,22 +30,20 @@ const Contact = () => {
 
   return (
     <motion.article
-      className="contact mx-auto space-y-8 py-12 px-6 bg-gradient-to-b from-gray-100 to-gray-300 dark:from-gray-900 dark:to-gray-700 rounded-lg shadow-lg"
+      className="contact h-screen mx-auto space-y-8 py-12 px-6 bg-gradient-to-b from-gray-100 to-gray-300 dark:from-gray-900 dark:to-gray-700 rounded-lg shadow-lg"
       data-page="contact"
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <header className="text-center">
-        <h2 className="text-3xl font-semibold text-gray-800 dark:text-gray-200">Contact Us</h2>
-      </header>
+      <header className="text-center"></header>
       <section className="flex flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-8">
         <section className="mapbox flex-1">
           <figure className="mb-8">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.90089981537!2d77.46612532514631!3d12.953945613629573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1716871887589!5m2!1sen!2sin"
               width="100%"
-              height="350"
+              height="380"
               loading="lazy"
               className="rounded-lg shadow-md"
               title="map"
@@ -59,6 +61,8 @@ const Contact = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5 }}
           >
+            <h2 className="text-xl text-center font-semibold text-gray-800 dark:text-gray-200">Get In Touch With Me</h2>
+
             <input type="hidden" name="access_key" value="42877094-c145-4d98-8d73-b2500fbffe99" />
             <input type="hidden" name="subject" value="Resume Contact Us" />
             <div className="space-y-4">

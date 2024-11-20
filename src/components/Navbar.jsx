@@ -37,10 +37,10 @@ const Navbar = ({ toggleTheme }) => {
           </li>
           <li>
             <Link
-              to="/about"
+              to="/experience"
               className="text-lg font-semibold text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
             >
-              About
+              Experience
             </Link>
           </li>
           <li>
