@@ -31,7 +31,7 @@ const Contact = () => {
   return (
     <section className="bg-gradient-to-b from-gray-100 to-gray-300 dark:from-gray-900 dark:to-gray-700">
       <motion.article
-        className="contact h-screen max-w-5xl mx-auto space-y-8 py-12 px-6"
+        className="contact h-full max-w-5xl mx-auto space-y-8 py-12 px-6"
         data-page="contact"
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}

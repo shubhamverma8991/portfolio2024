@@ -100,8 +100,8 @@ const Navbar = ({ toggleTheme }) => {
             </Link>
           </li>
           <li>
-            <Link to="/about" className="flex items-center text-lg text-gray-700 dark:text-gray-300" onClick={handleMenuToggle}>
-              <FiUser className="mr-2" /> About
+            <Link to="/experience" className="flex items-center text-lg text-gray-700 dark:text-gray-300" onClick={handleMenuToggle}>
+              <FiUser className="mr-2" /> Experience
             </Link>
           </li>
           <li>
