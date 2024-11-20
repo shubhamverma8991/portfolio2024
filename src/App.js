@@ -23,7 +23,7 @@ function App() {
 
   return (
     <Router>
-      <div className="min-h-screen bg-white dark:bg-black text-black dark:text-white">
+      <div className="min-h-screen bg-gradient-to-b from-gray-100 to-gray-300 dark:from-gray-900 dark:to-gray-700 text-black dark:text-white">
         <Navbar toggleTheme={toggleTheme} />
         <Routes>
           <Route path="/" element={<Profile />} />
