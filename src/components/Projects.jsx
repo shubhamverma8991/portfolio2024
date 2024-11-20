@@ -40,7 +40,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section className="p-8 bg-gradient-to-b from-gray-100 to-gray-300 dark:from-gray-900 dark:to-gray-700 text-black dark:text-white">
+    <section className="h-screen p-8 bg-gradient-to-b from-gray-100 to-gray-300 dark:from-gray-900 dark:to-gray-700 text-black dark:text-white">
       <h2 className="text-3xl font-bold mb-4 text-center">Projects</h2>
       <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
         {projects.map((project, index) => (
