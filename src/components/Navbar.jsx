@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { FiMenu, FiX, FiHome, FiUser, FiBriefcase, FiMail, FiSun, FiMoon } from "react-icons/fi";
+import { FiMenu, FiX, FiHome, FiUser, FiMail, FiSun, FiMoon } from "react-icons/fi";
 
 const Navbar = ({ toggleTheme }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
