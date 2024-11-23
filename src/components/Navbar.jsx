@@ -43,14 +43,14 @@ const Navbar = ({ toggleTheme }) => {
               Experience
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               to="/projects"
               className="text-lg font-semibold text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
             >
               Projects
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link
               to="/contact"
@@ -104,11 +104,11 @@ const Navbar = ({ toggleTheme }) => {
               <FiUser className="mr-2" /> Experience
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/projects" className="flex items-center text-lg text-gray-700 dark:text-gray-300" onClick={handleMenuToggle}>
               <FiBriefcase className="mr-2" /> Projects
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link to="/contact" className="flex items-center text-lg text-gray-700 dark:text-gray-300" onClick={handleMenuToggle}>
               <FiMail className="mr-2" /> Contact
