@@ -1,39 +1,33 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { IoEyeOutline } from "react-icons/io5";
+import proj1 from "../assets/portfoliowebiste.jpg";
+import proj2 from "../assets/prepquest.jpg";
 import dummy from "../assets/dummy.webp";
 
 const projects = [
-  {
-    title: "E-Commerce Website",
-    description:
-      "Developed a fully functional e-commerce website using React and Node.js, featuring user authentication, product management, and a shopping cart.",
-    technologies: ["React", "Node.js", "MongoDB", "Express"],
-    link: "https://example-ecommerce.com",
-    image: dummy,
-  },
   {
     title: "Portfolio Website",
     description:
       "Created a personal portfolio website to showcase my projects and skills, utilizing Tailwind CSS for styling and Framer Motion for animations.",
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    link: "https://example-portfolio.com",
-    image: dummy,
+    link: "https://iamshubham.netlify.app/",
+    image: proj1,
   },
   {
-    title: "Task Management App",
+    title: "Website for Interview Preparation",
     description:
-      "Built a task management application that allows users to create, update, and delete tasks, with real-time updates using WebSocket.",
-    technologies: ["React", "Socket.io", "Node.js"],
-    link: "https://example-taskmanager.com",
-    image: dummy,
+      "Developed a fully functional Website which helps with coding study materials, explore questions, answers, and pseudo-code crafted for clarity.",
+    technologies: ["React", "JavaScript", "MySQL", "Java", "Framer-motion", "Tailwnd CSS"],
+    link: "https://prepquest.netlify.app/",
+    image: proj2,
   },
   {
-    title: "Blog Platform",
-    description:
-      "Developed a blog platform where users can create and share articles, with features like comments and likes, using a RESTful API.",
-    technologies: ["React", "Express", "MongoDB"],
-    link: "https://example-blog.com",
+    title: "Resume Builder",
+    description: "A website that allows users to create resumes using provided templates.",
+    technologies: ["React", "JavaScript", "Tailwnd CSS"],
+    // link: "https://biobuild.netlify.app",
+    link: "https://loading.netlify.app/",
     image: dummy,
   },
 ];
@@ -60,7 +54,6 @@ const Projects = () => {
                 alt={project.title}
                 loading="lazy"
                 className="mb-2 rounded transition-all duration-300 ease-in-out w-full h-auto"
-                whileHover={{ scale: 1.05 }}
               />
               <motion.div
                 className="absolute inset-0 flex justify-center items-center bg-black bg-opacity-50 text-white rounded transition-all duration-300 opacity-0 hover:opacity-100"
