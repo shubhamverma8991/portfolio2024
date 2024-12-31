@@ -7,20 +7,20 @@ import dummy from "../assets/dummy.webp";
 
 const projects = [
   {
-    title: "Portfolio Website",
-    description:
-      "Created a personal portfolio website to showcase my projects and skills, utilizing Tailwind CSS for styling and Framer Motion for animations.",
-    technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    link: "https://iamshubham.netlify.app/",
-    image: proj1,
-  },
-  {
     title: "Website for Interview Preparation",
     description:
       "Developed a fully functional Website which helps with coding study materials, explore questions, answers, and pseudo-code crafted for clarity.",
     technologies: ["React", "JavaScript", "MySQL", "Java", "Framer-motion", "Tailwnd CSS"],
     link: "https://prepquest.netlify.app/",
     image: proj2,
+  },
+  {
+    title: "Portfolio Website",
+    description:
+      "Created a personal portfolio website to showcase my projects and skills, utilizing Tailwind CSS for styling and Framer Motion for animations.",
+    technologies: ["React", "Tailwind CSS", "Framer Motion"],
+    link: "https://iamshubham.netlify.app/",
+    image: proj1,
   },
   {
     title: "Resume Builder",
