@@ -2,17 +2,12 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const experiences = [
-  // {
-  //   company: "Ecoloop (FreeLance)",
-  //   title: "FrontEnd Developer",
-  //   duration: "May 2024 — Present",
-  //   details: [
-  //     "Built dynamic user interfaces using ReactJS, Angular, and modern CSS frameworks like TailwindCSS and Bootstrap.",
-  //     "Optimized website performance, achieving significant improvements in loading times and SEO rankings.",
-  //     "Delivered pixel-perfect UI designs by translating Figma and Adobe XD mockups into functional components.",
-  //     "Effectively managed multiple projects, ensuring timely delivery without compromising quality or functionality.",
-  //   ],
-  // },
+  {
+    company: "Innodeed Systems Pvt Ltd",
+    title: "Software Engineer",
+    duration: "March 2025 - Present",
+    details: [],
+  },
   {
     company: "Refactor Academy Pvt Ltd.",
     title: "Software Development Engineer -2 (FED)",
